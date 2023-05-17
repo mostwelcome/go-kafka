@@ -1,18 +1,16 @@
 # Kafka Go Application
 
-This project is a simple application demonstrating how to produce and consume messages using Kafka in Go.
+This project exemplifies a straightforward application showcasing the process of producing and consuming messages through Kafka in Go.
 
 ## Prerequisites
 
-Before you begin, ensure you have met the following requirements:
+Prior to initiation, it is imperative to verify that your system meets the prescribed prerequisites by ensuring the installation of the following requirements:
 
-* You have installed the latest version of [Go](https://golang.org/dl/) (1.17 or higher).
-* You have a recent version of [Apache Kafka](https://kafka.apache.org/downloads) (2.8.0 or higher).
-* You have installed the Go package [github.com/segmentio/kafka-go](https://github.com/segmentio/kafka-go).
+* Latest version of [Go](https://golang.org/dl/) (1.17 or higher).
+* Recent version of [Apache Kafka](https://kafka.apache.org/downloads) (2.8.0 or higher).
+* Recent version of [kafka-go](https://github.com/segmentio/kafka-go) (0.4.40 or higher)
 
-## Installing Kafka Go Application
-
-To install Kafka Go Application, follow these steps:
+## Installation
 
 1. Clone the repository:
 ```bash
@@ -27,7 +25,7 @@ cd your_repository
 ```bash
 go mod tidy
 ```
-Using Kafka Go Application:
+## Usage
 
 1. Start your Kafka and Zookeeper servers.
 
@@ -37,17 +35,23 @@ go run kafka_producer.go
 3. In a separate terminal, run the consumer to read messages from Kafka:
 go run kafka_consumer.go
 
-Contributing to Kafka Go Application:
-
-To contribute to Kafka Go Application, follow these steps:
+## Contribution
 
 1. Fork this repository.
-2. Create a branch: git checkout -b <branch_name>.
-3. Make your changes and commit them: git commit -m '<commit_message>'
-4. Push to the original branch: git push origin <project>/<location>
-5. Create the pull request.
+2. Create a branch:
+```bash
+git checkout -b <branch_name>.
+```
+3. Make your changes and commit them:
+```bash
+git commit -m '<commit_message>'
+```
+4. Push to the original branch:
+```bash
+git push origin <project>/<location>
+```
+5. Create the pull request using **relevant title, description and on-point commit messages**.
 
-Contact:
+## Contact:
 
-If you want to contact me you can reach me at <duttaswagata4082018@gmail.com>.
-
+*To initiate contact with me regarding this application, feel free to reach out via [email](mailto:duttaswagata4082018@gmail.com?subject=Communication%20regarding%20Kafka%20Go%20Application).*
